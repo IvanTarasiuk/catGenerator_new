@@ -47,7 +47,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qp7-NT-dmw">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="Qp7-NT-dmw">
                                 <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orA-tt-vnS">
@@ -143,6 +143,7 @@
                         <constraints>
                             <constraint firstItem="orA-tt-vnS" firstAttribute="height" secondItem="kkC-Z2-4Sn" secondAttribute="height" multiplier="1.76056" id="8f5-uB-IDN"/>
                             <constraint firstItem="Qp7-NT-dmw" firstAttribute="leading" secondItem="hE2-na-ctC" secondAttribute="leading" id="aMp-qR-dkx"/>
+                            <constraint firstItem="Qp7-NT-dmw" firstAttribute="top" secondItem="kkC-Z2-4Sn" secondAttribute="top" constant="103" id="aky-sM-Mdb"/>
                             <constraint firstItem="Qp7-NT-dmw" firstAttribute="top" secondItem="hE2-na-ctC" secondAttribute="top" id="gK3-Wg-nUR"/>
                             <constraint firstItem="orA-tt-vnS" firstAttribute="width" secondItem="kkC-Z2-4Sn" secondAttribute="width" id="h3b-kA-wa7"/>
                             <constraint firstItem="Qp7-NT-dmw" firstAttribute="trailing" secondItem="hE2-na-ctC" secondAttribute="trailing" id="lfJ-w3-Z6B"/>

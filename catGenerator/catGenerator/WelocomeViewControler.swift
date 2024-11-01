@@ -28,7 +28,7 @@ class WelcomeViewController: UIViewController, UITextViewDelegate {
     }
     
     // Переменная для хранения ссылки на активное поле ввода
-        private var activeTextField: UITextField?
+    private var activeTextField: UITextField?
     
     override func viewDidLoad() {
         super.viewDidLoad()
